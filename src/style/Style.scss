@@ -1,0 +1,157 @@
+
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  .stage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .buttonContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      span {
+        background-color: black;
+        border-radius: 5px;
+        font-size: 8px;
+        padding: 2px;
+        color: #f4d21c;
+      }
+    }
+    button {
+      width: 45px;
+      height: 30px;
+      margin: 10px;
+      background-color: #f4d21c;
+      border-radius: 5px;
+      border: none;
+      box-shadow: 2px 2px 2px black;
+      &.selected {
+        background-color: #ed8b00;
+      }
+      &.Temporary {
+        background-color: rgb(
+          93,
+          175,
+          93
+        );
+      }
+      &.reservation {
+        background-color: #e30b0b;
+      }
+    }
+
+    .classA {
+      width: 40%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      margin: 5px;
+      border-radius: 10px;
+      background-color: black;
+    }
+    .classB {
+      width: 30%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      margin: 5px;
+      border-radius: 10px;
+      background-color: black;
+    }
+    .classC {
+      width: 30%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      margin: 5px;
+      border-radius: 10px;
+      background-color: black;
+    }
+  }
+  .classD {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: black;
+
+    .buttonContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      span {
+        background-color: black;
+        border-radius: 5px;
+        font-size: 8px;
+        padding: 2px;
+        color: #f4d21c;
+      }
+    }
+    button {
+      width: 45px;
+      height: 30px;
+      margin: 10px;
+      background-color: #f4d21c;
+      border-radius: 5px;
+      border: none;
+      box-shadow: 2px 2px 2px black;
+      &.selected {
+        background-color: #ed8b00;
+      }
+      &.Temporary {
+        background-color: rgb(
+          93,
+          175,
+          93
+        );
+      }
+      &.reservation {
+        background-color: #e30b0b;
+      }
+    }
+  }
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .title {
+    margin-top: 10px;
+    color: #f4d21c;
+    font-size: 36px;
+    width: 50%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 10px;
+  }
+  .counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    > div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 150px;
+      height: 30px;
+      margin: 10px;
+      background-color: #434343;
+      color: #ed8b00;
+      border-radius: 5px;
+    }
+  }
+}
