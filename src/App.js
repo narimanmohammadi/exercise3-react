@@ -1,11 +1,19 @@
 import React from 'react'
-import Stage from './components/Stage'
+import { Provider } from 'react-redux';
+import store from './redux/store'
+import Header from './components/Header'
+import MainBox from './components/MainBox';
+import './style/Style.scss'
+
 
 function App() {
   return (
-    <div>
-      <Stage/>
-    </div>
+    <Provider store={store}>
+      <div className='main'>
+        <Header />
+        <MainBox />
+      </div>
+    </Provider>
   );
 }
 
